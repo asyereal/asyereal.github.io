@@ -1,0 +1,75 @@
+body{
+	background: #000000;
+	color: #ffffff;
+	font-family: Arial;
+}
+header{
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	background: grey;
+	border-radius: 15px;
+}
+.frontboard{
+	font-size: 250%;
+	margin-left: 1%;
+	margin-right: 20%;
+	display: inline-block;
+	background: #202020;
+	border: none;
+	color: white;
+	border-radius: 25px;
+	padding: 20px;
+}
+.more{
+	margin-left: 10.5%;
+	display: inline;
+}
+.articles{
+	font-size: 200%;
+	display: inline-block;
+	margin: 2px;
+	background: #202020;
+	border: none;
+	border-radius: 25px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 1%;
+	padding-left: 1%;
+	color: white;
+}
+.articles:hover{
+            transition-duration: 1s;
+            background: white;
+            color: #202020;
+}
+.note{
+	font-family: "Lucida Console";
+	margin: 1%;
+}
+.pagename{
+	font-size: 300%;
+	margin-top: none;
+	margin-bottom: 1%;
+}
+.card{
+	display: block;
+	border: 2px solid white;
+	border-radius: 25px;
+	height: 200px;
+	padding: 20px;
+	color: white;
+	font-size: 175%;
+}
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+}
+.topic{
+	font-size: 145%;
+	border-bottom: 2px solid white;
+	display: inline-block;
+	margin-bottom: 2%;
+}
+.essay{
+	font-size: 150%;
+	margin: 1%;
+}
