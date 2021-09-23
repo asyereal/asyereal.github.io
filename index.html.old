@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+        <meta http-equiv="Content-Type" content="text/html charset=UTF-8" dir="ltr">
+        <meta name="author" content="ASYEREAL">
+        <meta name="title" content="REAL Group">
+        <meta name="description" content="REAL Group, we make free and open-source softwares.">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>REAL Group</title>
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="shortcut icon" href="/favicon.png">
+	</head>
+	<body>
+		<header>
+		<a href="/index.html"><div class="frontboard"> REAL Group </div></a>
+		<div class="more">
+			<a href="memes.html"><button class="articles">404</button></a>
+			<a href="reviews.html"><button class="articles">404</button></a>
+			<a href="culture.html"><button class="articles">404</button></a>
+			<a href="general.html"><button class="articles">404</button></a>
+		</div>
+		</header>
+		<div class="note">
+			This site consists of only HTML and CSS codes, no JavaScript or PHP scripts. Site is updated at least once a month.
+		</div>
+		<a href="general/overview.html"><div class="card">
+			<div class="topic">
+				get ricked
+			</div>
+			<br>
+		</div>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        	</a>
+	</body>
+</html>
