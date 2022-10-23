@@ -21,16 +21,16 @@ header{
 	padding: 20px;
 }
 .more{
-	margin-left: 10.5%;
+	margin-left: 42%;
 	display: inline;
 }
 .articles{
 	font-size: 200%;
 	display: inline-block;
-	margin: 2px;
+	margin: 5px;
 	background: #202020;
 	border: none;
-	border-radius: 25px;
+	border-radius: 15px;
 	padding-top: 1%;
 	padding-bottom: 1%;
 	padding-right: 1%;
