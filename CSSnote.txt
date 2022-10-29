@@ -1,0 +1,17 @@
+Standard monitor sizes you can set in your CSS:-
+
+/* Mobile */
+@media only screen and (max-width: 767.98px) {
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Small Monitor */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Large Monitor */
+@media only screen and (min-width: 1200px) {
+  }
