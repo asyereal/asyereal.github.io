@@ -1,1 +1,1 @@
-sed -i 's/\/favi/\/resources\/favi/g' *html
+sed -i 's/onion //g' *html
