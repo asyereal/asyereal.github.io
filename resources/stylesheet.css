@@ -113,6 +113,9 @@ header{
 	text-align: center;
 	
 }
+.gallery{
+	text-align: center;
+}
 .icard{
 	display: inline-flex;
 	border: 2px solid white;
