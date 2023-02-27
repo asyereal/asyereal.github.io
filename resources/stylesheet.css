@@ -113,6 +113,15 @@ header{
 	text-align: center;
 	
 }
+.icard{
+	display: inline-flex;
+	border: 2px solid white;
+	margin: 5px 5px;
+	color: white;
+	font-size: 175%;
+	text-align: center;
+	
+}
 a:link, a:visited, a:hover, a:active{
 	    text-decoration: none;
 	    
