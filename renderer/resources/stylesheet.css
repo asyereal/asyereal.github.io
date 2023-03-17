@@ -1,0 +1,143 @@
+body{
+	background: #000000;
+	color: #ffffff;
+	font-family: Arial;
+	
+}
+header{
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	background: grey;
+	border-radius: 15px;
+	
+}
+.frontboard{
+	font-size: 250%;
+	margin-left: 1%;
+	margin-right: 20%;
+	display: inline-block;
+	background: #202020;
+	border: none;
+	color: white;
+	border-radius: 15px;
+	padding: 20px;
+	
+}
+.more{
+	display: inline;
+	margin-left: 52%;
+}
+@media only screen and (min-width: 425px) and (max-width: 639px) {
+	.more{
+		margin-left: -6%;
+	}
+}
+@media only screen and (min-width: 640px) and (max-width: 711px) {
+	.more{
+		margin-left: 5%;
+	}
+}
+@media only screen and (min-width: 712px) and (max-width: 765px) {
+	.more{
+		margin-left: 12%;
+	}
+}
+@media only screen and (min-width: 766px) and (max-width: 846px) {
+	.more{
+		margin-left: 17%;
+	}
+}
+@media only screen and (min-width: 847px) and (max-width: 940px) {
+	.more{
+		margin-left: 27%;
+	}
+}
+@media only screen and (min-width: 941px) and (max-width: 1023px) {
+	.more{
+		margin-left: 20%;
+	}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+	.more{
+		margin-left: 42%;
+	}
+}
+@media only screen and (min-width: 1366px) and (max-width: 1565px) {
+	.more{
+		margin-left: 30%;
+		display: inline;
+		
+	}
+	
+}
+
+.articles{
+	font-size: 200%;
+	display: inline-block;
+	margin: 5px;
+	background: #202020;
+	border: none;
+	border-radius: 15px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 1%;
+	padding-left: 1%;
+	color: white;
+	
+}
+.articles:hover{
+	            transition-duration: 1s;
+	                        background: white;
+	                                    color: #202020;
+	                                    
+}
+.note{
+	font-family: "Lucida Console";
+	margin: 1%;
+	
+}
+.pagename{
+	font-size: 300%;
+	margin-top: none;
+	margin-bottom: 1%;
+	
+}
+.card{
+	display: block;
+	border: 2px solid white;
+	border-radius: 25px;
+	margin-top:10px;
+	padding: 20px;
+	color: white;
+	font-size: 175%;
+	text-align: center;
+	background-repeat: no-repeat;
+}
+.gallery{
+	text-align: center;
+}
+.icard{
+	display: inline-flex;
+	border: 2px solid white;
+	margin: 5px 5px;
+	color: white;
+	font-size: 175%;
+	text-align: center;
+	
+}
+a:link, a:visited, a:hover, a:active{
+	    text-decoration: none;
+	    
+}
+.topic{
+	font-size: 145%;
+	border-bottom: 2px solid white;
+	display: inline-block;
+	margin-bottom: 2%;
+	
+}
+.essay{
+	font-size: 150%;
+	margin: 1%;
+	
+}
