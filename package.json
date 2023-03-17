@@ -1,0 +1,12 @@
+{
+	"name": "realedu",
+	"productName": "RealEdu",
+	"version": "0.1",
+	"description": "An app to unify KSSM Ebook sources",
+	"main": "main.js",
+	"scripts":{
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Real Group",
+	"license": "GPL3"
+}
