@@ -2,7 +2,7 @@ const path = require("path");
 const {app, BrowserWindow} = require("electron");
 
 function createMainWindow(){
-	const mainWindow = newBrowserWindow({
+	const mainWindow = new BrowserWindow({
 		title: "RealEdu",
 		width: 800,
 		height: 600
