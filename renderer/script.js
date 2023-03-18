@@ -1,12 +1,11 @@
 var language = "en";
 var edulevel = "primary"
-
-function toEn(){
-	document.getElementById("descbar").innerHTML = "English";
+function toPs(){
+	document.getElementById("descbar").innerHTML = "Sekolah rendah - placeholder kosong1 -";
 	document.getElementById("langprompt").style.display = "none";
 }
-function toBm(){
-	document.getElementById("descbar").innerHTML = "Bahasa Melayu";
+function toSs(){
+	document.getElementById("descbar").innerHTML = "Sekolah menengah - placeholder kosong 2 -";
 	document.getElementById("langprompt").style.display = "none";
 }
 function opentab(a){
