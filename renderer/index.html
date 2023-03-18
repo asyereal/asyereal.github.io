@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-        <meta http-equiv="Content-Type" content="text/html charset=UTF-8" dir="ltr">
+        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" dir="ltr">
         <meta name="author" content="Arif & Asyraf">
         <meta name="title" content="RealEdu">
         <meta name="description" content="RealEdu is a website to unify education">
@@ -14,19 +14,22 @@
 	<script src="script.js"></script>
 		<header>
 		<a href="./index.html"><div class="frontboard"> RealEdu </div></a>
+		<div class="more">
+			<button type="button" class="articles" onclick="opentab('eduprompt')">Back</button></a>
+		</div>
 		</header>
-		<div id="langprompt">
+		<div id="eduprompt">
 			<p id="descbar">
 				Education level
 			</p>
-			<button class="tab" onclick="toPs(); opentab('primary')">
+			<button type="button" class="tab" onclick="opentab('primary')">
 				<div class="card">
 					<div class="topic">
 						Primary School
 					</div>
             	</div>
         	</button>
-			<button class="tab" onclick="toSs(); opentab('secondary')">
+			<button type="button" class="tab" onclick="opentab('secondary')">
 				<div class="card">
 					<div class="topic">
 						Secondary School
@@ -37,23 +40,23 @@
 		<div id="primary" class="maintabs" style="display:none">
   			<h2>Primary School</h2>
   			<ul>
-  				<li> Year 1 </li>
-  				<li> Year 2 </li>
-  				<li> Year 3 </li>
-  				<li> Year 4 </li>
-  				<li> Year 5 </li>
-  				<li> Year 6 </li>
+  				<li><button type="button" class="psli" onclick="expandtab('ps1')"> Year 1 </button></li>
+  				<li><button type="button" class="psli" onclick="expandtab('ps2')"> Year 2 </button></li>
+  				<li><button type="button" class="psli" onclick="expandtab('ps3')"> Year 3 </button></li>
+  				<li><button type="button" class="psli" onclick="expandtab('ps4')"> Year 4 </button></li>
+  				<li><button type="button" class="psli" onclick="expandtab('ps5')"> Year 5 </button></li>
+  				<li><button type="button" class="psli" onclick="expandtab('ps6')"> Year 6 </button></li>
   			</ul>
 		</div>
 		
 		<div id="secondary" class="maintabs" style="display:none">
   			<h2>Secondary School</h2>
   			<ul>
-  				<li> Form 1 </li>
-  				<li> Form 2 </li>
-  				<li> Form 3 </li>
-  				<li> Form 4 </li>
-  				<li> Form 5 </li>
+  				<li><button type="button" class="ssli" onclick="expandtab('ss1')"> Form 1 </button></li>
+  				<li><button type="button" class="ssli" onclick="expandtab('ss2')"> Form 2 </button></li>
+  				<li><button type="button" class="ssli" onclick="expandtab('ss3')"> Form 3 </button></li>
+  				<li><button type="button" class="ssli" onclick="expandtab('ss4')"> Form 4 </button></li>
+  				<li><button type="button" class="ssli" onclick="expandtab('ss5')"> Form 5 </button></li>
   			</ul>
 		</div>
 	</body>

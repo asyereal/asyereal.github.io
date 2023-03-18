@@ -1,4 +1,5 @@
 body{
+	transition-duration: 1s;
 	background: #000000;
 	color: #ffffff;
 	font-family: Arial;
@@ -59,7 +60,7 @@ header{
 }
 @media only screen and (min-width: 1024px) and (max-width: 1365px) {
 	.more{
-		margin-left: 42%;
+		margin-left: 53%;
 	}
 }
 @media only screen and (min-width: 1366px) and (max-width: 1565px) {
@@ -86,10 +87,9 @@ header{
 	
 }
 .articles:hover{
-	            transition-duration: 1s;
-	                        background: white;
-	                                    color: #202020;
-	                                    
+	transition-duration: 1s;
+	background: white;
+    color: #202020;
 }
 .note{
 	font-family: "Lucida Console";
@@ -115,7 +115,7 @@ header{
 	transition-duration: 1s;
 }
 .card:hover{
-	background-color: white;
+	background-color: grey;
 	color: black;
 }
 .gallery{
