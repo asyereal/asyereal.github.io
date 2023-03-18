@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body{
 	transition-duration: 1s;
 	background: #000000;
 	color: #ffffff;
-	font-family: Arial;
+	font-family: "Pacifico";
 	
 }
 header{
@@ -148,4 +150,10 @@ a:link, a:visited, a:hover, a:active{
 .essay{
 	font-size: 150%;
 	margin: 1%;
+}
+#mlink{
+	color: white;
+	font-family: "Lucida Console";
+	text-decoration: none;
+
 }
