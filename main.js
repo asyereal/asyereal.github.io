@@ -14,6 +14,7 @@ function createMainWindow(){
 		width: 800,
 		height: 600
 	});
+	const contents = mainWindow.webContents;
 
 	/*
 	if(isDev){
@@ -63,14 +64,18 @@ const menu = [
 			}
 		]
 	}] : []),
+
 	{
 		role: "fileMenu",
 	},
+/*
 	...(!isMac ? [{
-		label: "Help",
+		label: "Page",
 		submenu: [{
-			label: "About",
-			click: createAboutWindow
+			label: "Back",
+			click: BrowserWindow.webContents.goBack
 		}]
-	}] : [])
+	}] : []),
+	*/
+
 ];
