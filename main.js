@@ -14,7 +14,6 @@ function createMainWindow(){
 		width: 800,
 		height: 600
 	});
-	const contents = mainWindow.webContents;
 
 	/*
 	if(isDev){
@@ -55,7 +54,7 @@ app.on("window-all-closed", () => {
 })
 
 const menu = [
-	...(isMac ? [{
+	...(!isMac ? [{
 		label: app.name,
 		submenu: [
 			{
@@ -68,14 +67,4 @@ const menu = [
 	{
 		role: "fileMenu",
 	},
-/*
-	...(!isMac ? [{
-		label: "Page",
-		submenu: [{
-			label: "Back",
-			click: BrowserWindow.webContents.goBack
-		}]
-	}] : []),
-	*/
-
 ];
