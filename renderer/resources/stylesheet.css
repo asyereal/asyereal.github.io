@@ -155,5 +155,6 @@ a:link, a:visited, a:hover, a:active{
 	color: white;
 	font-family: "Century Gothic";
 	text-decoration: none;
-	
+	border: 2px solid white;
+	border-radius: 15px;
 }
