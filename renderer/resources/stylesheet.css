@@ -112,6 +112,11 @@ header{
 	font-size: 175%;
 	text-align: center;
 	background-repeat: no-repeat;
+	transition-duration: 1s;
+}
+.card:hover{
+	background-color: white;
+	color: black;
 }
 .gallery{
 	text-align: center;
@@ -129,12 +134,16 @@ a:link, a:visited, a:hover, a:active{
 	    text-decoration: none;
 	    
 }
+.tab{
+	background-color: transparent;
+	border: none;
+	display: contents;
+}
 .topic{
 	font-size: 145%;
 	border-bottom: 2px solid white;
 	display: inline-block;
 	margin-bottom: 2%;
-	
 }
 .essay{
 	font-size: 150%;
