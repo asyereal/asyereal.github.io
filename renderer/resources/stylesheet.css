@@ -161,4 +161,5 @@ a:link, a:visited, a:hover, a:active{
 	border-radius: 15px;
 	padding: 20px;
 	display: block;
+	margin-bottom: 10px;
 }
