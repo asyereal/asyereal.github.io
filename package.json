@@ -1,5 +1,6 @@
 {
 	"name": "realedu",
+	"homepage": "https://realoss.github.io",
 	"productName": "RealEdu",
 	"version": "0.0.1",
 	"license": "GPL3",
@@ -7,11 +8,10 @@
 	"author": "realoss <realedu957@gmail.com>",
 	"main": "main.js",
 	"scripts": {
-		"postinstall": "install-app-deps",
-		"start": "npm install && electron .",
-		"pack": "build --dir",
-		"dist": "build"
+		"pack": "electron-builder --dir",
+		"dist": "electron-builder"
 	},
+	"postinstall": "electron-builder install-app-deps",
 	"build": {
 		"appId": "realedu",
 		"dmg": {
@@ -39,7 +39,8 @@
 		}
 	},
 	"devDependencies": {
+		"@electron-forge/cli": "^6.1.1",
 		"electron": "latest",
-		"electron-builder": "^23.6.0"
+		"electron-builder": "^24.2.1"
 	}
 }
