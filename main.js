@@ -52,7 +52,6 @@ app.on("window-all-closed", () => {
 		app.quit()
 	}
 })
-
 const menu = [
 	...(!isMac ? [{
 		label: app.name,
