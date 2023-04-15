@@ -1,12 +1,45 @@
 {
 	"name": "realedu",
 	"productName": "RealEdu",
-	"version": "0.1",
-	"description": "An app to unify KSSM Ebook sources",
+	"version": "0.0.1",
+	"license": "GPL3",
+	"description": "A collaborative project to unify learning",
+	"author": "realoss <realedu957@gmail.com>",
 	"main": "main.js",
-	"scripts":{
-		"test": "echo \"Error: no test specified\" && exit 1"
+	"scripts": {
+		"postinstall": "install-app-deps",
+		"start": "npm install && electron .",
+		"pack": "build --dir",
+		"dist": "build"
 	},
-	"author": "Arif & Asyraf",
-	"license": "GPL3"
+	"build": {
+		"appId": "realedu",
+		"dmg": {
+			"contents": [
+				{
+					"x": 110,
+					"y": 150
+				},
+				{
+					"x": 240,
+					"y": 150,
+					"type": "link",
+					"path": "/Applications"
+				}
+			]
+		},
+		"linux": {
+			"target": [
+				"AppImage",
+				"deb"
+			]
+		},
+		"win": {
+			"target": "NSIS"
+		}
+	},
+	"devDependencies": {
+		"electron": "latest",
+		"electron-builder": "^23.6.0"
+	}
 }

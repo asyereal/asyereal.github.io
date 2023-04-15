@@ -1,0 +1,89 @@
+Primary School:
+	Year 1:
+		Bahasa Melayu
+		English
+		Sains
+		Mathematics 1
+		Mathematics 2
+		Pendidikan Islam
+		Pendidikan Jasmani
+		Pendidikan Kesenian
+		Pendidikan Moral
+		Arabic
+		Mandarin
+		Tamil
+		Iban
+		Kadazandusun
+		Semai
+	Year 2:
+		Bahasa Melayu 1
+		Bahasa Melayu 2
+		English
+		Sains
+		Mathematics 1
+		Mathematics 2
+		Pendidikan Islam
+		Pendidikan Jasmani
+		Pendidikan Kesenian
+		* Pendidikan Moral
+		Arabic
+		Mandarin
+		Tamil
+		Iban
+		Kadazandusun
+		Semai
+	Year 3:
+		Bahasa Melayu
+		* English
+		Sains
+		Mathematics 1
+		Mathematics 2
+		Pendidikan Islam
+		Pendidikan Jasmani
+		Pendidikan Kesenian
+		Pendidikan Moral
+		* Arabic
+		Mandarin
+		Tamil
+		* Iban
+		Kadazandusun
+		* Semai
+	Year 4:
+		Bahasa Melayu
+		English
+		Sains
+		Mathematics
+		Sejarah
+		ICT
+		Pendidikan Islam
+		Pendidikan Jasmani
+		Pendidikan Kesenian
+		* Pendidikan Moral
+		Muzik
+		Arabic
+	Year 5:
+		Bahasa Melayu
+		English
+		Sains
+		* Mathematics
+		* Sejarah
+		ICT
+		Seni Visual
+		Pendidikan Islam
+		* Pendidikan Jasmani
+		* Pendidikan Moral
+		* Muzik
+		Arabic
+	Year 6:
+		Bahasa Melayu
+		English
+		Sains
+		* Mathematics
+		* Sejarah
+		* ICT
+		Seni Visual
+		Pendidikan Islam
+		* Pendidikan Jasmani
+		* Pendidikan Moral
+		* Muzik
+		Arabic
