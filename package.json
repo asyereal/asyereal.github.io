@@ -29,9 +29,7 @@
 			]
 		},
 		"linux": {
-			"target": [
-				"AppImage"
-			],
+			"target": "AppImage",
 			"icon": "icon.png"
 		},
 		"win": {
@@ -39,8 +37,15 @@
 		}
 	},
 	"devDependencies": {
+		"@capacitor/cli": "^4.7.3",
+		"@capacitor/core": "^4.7.3",
 		"@electron-forge/cli": "^6.1.1",
 		"electron": "latest",
 		"electron-builder": "^24.2.1"
+	},
+	"dependencies": {
+		"@capacitor/android": "^4.7.3",
+		"@capacitor/ios": "^4.7.3",
+		"gradle": "^1.2.4"
 	}
 }
