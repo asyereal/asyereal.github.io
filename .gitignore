@@ -1,3 +1,4 @@
 node_modules
 dist
 android
+/renderer/resources/testing.html

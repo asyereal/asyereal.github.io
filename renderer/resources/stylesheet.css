@@ -2,7 +2,7 @@
 
 body{
 	transition-duration: 1s;
-	background: #000000;
+	background: #189AB4;
 	color: #ffffff;
 	font-family: "Pacifico";
 	
@@ -10,7 +10,7 @@ body{
 header{
 	padding-top: 0.5%;
 	padding-bottom: 0.5%;
-	background: grey;
+	background: #75E6DA;
 	border-radius: 15px;
 	
 }
@@ -19,7 +19,7 @@ header{
 	margin-left: 1%;
 	margin-right: 20%;
 	display: inline-block;
-	background: #202020;
+	background: #05445E;
 	border: none;
 	color: white;
 	border-radius: 15px;
@@ -76,9 +76,10 @@ header{
 
 .articles{
 	font-size: 200%;
+	font-family: inherit;
 	display: inline-block;
 	margin: 5px;
-	background: #202020;
+	background: #05445E;
 	border: none;
 	border-radius: 15px;
 	padding-top: 1%;
@@ -94,7 +95,6 @@ header{
     color: #202020;
 }
 .note{
-	font-family: "Lucida Console";
 	margin: 1%;
 	
 }
@@ -115,10 +115,12 @@ header{
 	text-align: center;
 	background-repeat: no-repeat;
 	transition-duration: 1s;
+	background: #05445E;
+	font-family: inherit;
 }
 .card:hover{
-	background-color: grey;
-	color: black;
+	background-color: #D4F1F4;
+	color: #05445E;
 }
 .gallery{
 	text-align: center;
@@ -143,7 +145,6 @@ a:link, a:visited, a:hover, a:active{
 }
 .topic{
 	font-size: 145%;
-	font-family:"Century Gothic";
 	border-bottom: 2px solid white;
 	display: inline-block;
 	margin-bottom: 2%;
@@ -155,10 +156,10 @@ a:link, a:visited, a:hover, a:active{
 #mlink{
 	color: white;
 	font-size: 150%;
-	font-family: "Century Gothic";
 	border: 2px solid white;
 	border-radius: 15px;
 	padding: 20px;
 	display: block;
 	margin-bottom: 10px;
+	background: #05445E;
 }
