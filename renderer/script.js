@@ -1,5 +1,5 @@
 var language = "en";
-var edulevel = "primary"
+var edulevel = "menu1"
 function opentab(a){
 	var i;
 	var x = document.getElementsByClassName("maintabs");
