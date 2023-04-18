@@ -32,17 +32,17 @@ header{
 }
 @media only screen and (min-width: 425px) and (max-width: 639px) {
 	.more{
-		margin-left: -6%;
+		margin-left: 15%;
 	}
 }
 @media only screen and (min-width: 640px) and (max-width: 711px) {
 	.more{
-		margin-left: 5%;
+		margin-left: 35%;
 	}
 }
 @media only screen and (min-width: 712px) and (max-width: 765px) {
 	.more{
-		margin-left: 12%;
+		margin-left: 35%;
 	}
 }
 @media only screen and (min-width: 766px) and (max-width: 846px) {
@@ -52,7 +52,7 @@ header{
 }
 @media only screen and (min-width: 847px) and (max-width: 940px) {
 	.more{
-		margin-left: 27%;
+		margin-left: 40%;
 	}
 }
 @media only screen and (min-width: 941px) and (max-width: 1023px) {
@@ -67,7 +67,7 @@ header{
 }
 @media only screen and (min-width: 1366px) and (max-width: 1565px) {
 	.more{
-		margin-left: 30%;
+		margin-left: 55%;
 		display: inline;
 		
 	}
