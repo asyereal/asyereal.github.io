@@ -116,7 +116,7 @@ header{
 	background-repeat: no-repeat;
 	transition-duration: 1s;
 	background: #05445E;
-	font-family: inherit;
+	font-family: "Pacifico";
 }
 .card:hover{
 	background-color: #D4F1F4;
