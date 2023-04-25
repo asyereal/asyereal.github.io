@@ -4,6 +4,7 @@ android
 /renderer/resources/testing.html
 /renderer/resources/styletest.css
 /renderer/resources/scripttest.js
+/renderer/resources/sample.pdf
 /renderer/resources/App_paradigm.odg
 capacitor.config.ts
 sdk
