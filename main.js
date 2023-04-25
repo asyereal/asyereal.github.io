@@ -7,7 +7,6 @@ const isWin = process.platform === "win32";
 const isGNU = process.platform === "linux";
 const isMac = process.platform === "darwin";
 
-
 function createMainWindow(){
 	const mainWindow = new BrowserWindow({
 		title: "RealEdu",
@@ -20,6 +19,19 @@ function createMainWindow(){
 	}
 */
 	mainWindow.loadFile(path.join(__dirname, "./renderer/index.html"));
+	const menu = [
+		{
+			label: "Quit",
+			click: app.quit
+		},
+		{
+			label: "About",
+			click: createAboutWindow
+		}
+	]
+	//sets the menu
+	const mainMenu = Menu.buildFromTemplate(menu);
+	Menu.setApplicationMenu(mainMenu);
 }
 
 function createAboutWindow(){
@@ -30,7 +42,6 @@ function createAboutWindow(){
 	});
 
 	aboutWindow.loadFile(path.join(__dirname, "./renderer/about.html"));
-
 }
 
 app.whenReady().then(() => {
@@ -41,8 +52,6 @@ app.whenReady().then(() => {
 			createMainWindow();
 		}
 	})
-	const mainMenu = Menu.buildFromTemplate(menu);
-	Menu.setApplicationMenu(mainMenu);
 });
 
 app.on("window-all-closed", () => {
@@ -50,18 +59,4 @@ app.on("window-all-closed", () => {
 		app.quit()
 	}
 })
-const menu = [
-	...(!isMac ? [{
-		label: app.name,
-		submenu: [
-			{
-				label: "About",
-				click: createAboutWindow
-			}
-		]
-	}] : []),
 
-	{
-		role: "fileMenu",
-	},
-];

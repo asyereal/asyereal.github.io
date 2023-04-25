@@ -5,3 +5,10 @@ android
 /renderer/resources/styletest.css
 /renderer/resources/scripttest.js
 /renderer/resources/App_paradigm.odg
+capacitor.config.ts
+sdk
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build

@@ -2,7 +2,7 @@
 	"name": "realedu",
 	"homepage": "https://realoss.github.io",
 	"productName": "RealEdu",
-	"version": "0.2.3",
+	"version": "0.2.4",
 	"license": "GPL3",
 	"description": "A collaborative project to unify learning",
 	"author": "realoss <realedu957@gmail.com>",
@@ -38,14 +38,13 @@
 	},
 	"devDependencies": {
 		"@capacitor/cli": "^4.7.3",
-		"@capacitor/core": "^4.7.3",
-		"@electron-forge/cli": "^6.1.1",
 		"electron": "latest",
-		"electron-builder": "^24.2.1"
+		"electron-builder": "^24.2.1",
+		"gradle": "^1.2.4"
 	},
 	"dependencies": {
 		"@capacitor/android": "^4.7.3",
-		"@capacitor/ios": "^4.7.3",
-		"gradle": "^1.2.4"
+		"@capacitor/core": "^4.7.3",
+		"capacitor": "^0.5.5"
 	}
 }
