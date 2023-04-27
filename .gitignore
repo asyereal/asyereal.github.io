@@ -2,6 +2,8 @@ node_modules
 dist
 android
 /renderer/resources/testing.html
+/renderer/resources/info.txt
+/renderer/resources/details.txt
 /renderer/resources/styletest.css
 /renderer/resources/scripttest.js
 /renderer/resources/sample.pdf
