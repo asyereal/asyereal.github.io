@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
 body{
 	transition-duration: 1s;
 	background: #189AB4;
 	color: #ffffff;
-	font-family: "Pacifico";
+	font-family: "Balsamiq Sans", cursive;
 	
 }
 header{
@@ -24,7 +25,7 @@ header{
 	color: white;
 	border-radius: 15px;
 	padding: 20px;
-	
+	font-family: "Pacifico";
 }
 .more{
 	display: inline;
@@ -116,7 +117,7 @@ header{
 	background-repeat: no-repeat;
 	transition-duration: 1s;
 	background: #05445E;
-	font-family: "Pacifico";
+	font-family: "Balsamiq Sans", cursive;
 }
 .card:hover{
 	background-color: #D4F1F4;
@@ -154,6 +155,7 @@ a:link, a:visited, a:hover, a:active{
 	margin: 1%;
 }
 #mlink{
+	font-family: "Balsamiq Sans", cursive;
 	color: white;
 	font-size: 150%;
 	border: 2px solid white;
