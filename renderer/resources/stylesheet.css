@@ -31,48 +31,36 @@ header{
 	display: inline;
 	margin-left: 52%;
 }
-@media only screen and (min-width: 425px) and (max-width: 639px) {
+@media only screen and (min-width: 425px) and (max-width: 625px) {
 	.more{
 		margin-left: 15%;
 	}
 }
-@media only screen and (min-width: 640px) and (max-width: 711px) {
+@media only screen and (min-width: 626px) and (max-width: 825px) {
 	.more{
-		margin-left: 35%;
+		margin-left: 25%;
 	}
 }
-@media only screen and (min-width: 712px) and (max-width: 765px) {
-	.more{
-		margin-left: 35%;
-	}
-}
-@media only screen and (min-width: 766px) and (max-width: 846px) {
+@media only screen and (min-width: 826px) and (max-width: 1025px) {
 	.more{
 		margin-left: 41%;
 	}
 }
-@media only screen and (min-width: 847px) and (max-width: 940px) {
-	.more{
-		margin-left: 40%;
-	}
-}
-@media only screen and (min-width: 941px) and (max-width: 1023px) {
+@media only screen and (min-width: 1026px) and (max-width: 1225px) {
 	.more{
 		margin-left: 20%;
 	}
 }
-@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+@media only screen and (min-width: 1226px) and (max-width: 1425px) {
 	.more{
-		margin-left: 53%;
+		margin-left: 50%;
 	}
 }
-@media only screen and (min-width: 1366px) and (max-width: 1565px) {
+@media only screen and (min-width: 1426px) and (max-width: 1625px) {
 	.more{
 		margin-left: 55%;
 		display: inline;
-		
 	}
-	
 }
 
 .articles{
