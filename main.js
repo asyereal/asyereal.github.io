@@ -10,7 +10,7 @@ const isMac = process.platform === "darwin";
 function createMainWindow(){
 	const mainWindow = new BrowserWindow({
 		title: "RealEdu",
-		width: 800,
+		width: 850,
 		height: 600
 	});
 /*
@@ -18,7 +18,7 @@ function createMainWindow(){
 		mainWindow.webContents.openDevTools();
 	}
 */
-	mainWindow.loadFile(path.join(__dirname, "./renderer/index.html"));
+	mainWindow.loadFile(path.join(__dirname, "./www/index.html"));
 	const menu = [
 		{
 			label: "Quit",
@@ -41,7 +41,7 @@ function createAboutWindow(){
 		height: 300
 	});
 
-	aboutWindow.loadFile(path.join(__dirname, "./renderer/about.html"));
+	aboutWindow.loadFile(path.join(__dirname, "./www/about.html"));
 }
 
 app.whenReady().then(() => {
