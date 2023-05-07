@@ -11,13 +11,27 @@
 		<link rel="shortcut icon" href="favicon.png">
 	</head>
 	<body>
+		<script src="../script.js"></script>
 		<header>
-			<a href="../index.html"><div class="frontboard"> RealEdu </div></a>
 			<div class="more">
-				<a href="../index.html"><button class="articles">Back</button></a>
+				<a href="../index.html"><div class="frontboard"> RealEdu </div></a>
+				<a id="inilink" href="../index.html"><button class="articles" style="width:120px;">Back</button></a>
 			</div>
 		</header>
-		<div class="pagename">Primary School | Year 5</div>
+		<div id="eduprompt">
+			<div class="testing">
+				<div class="pagename">Primary School | Year 5</div>
+				<div class="dropdown">
+					<button type="button" class="articles">☰</button>
+					<div class="droptions">
+						<button type="button" class="articles" onclick="gold()" style="font-size: 150%;">Gold</button>
+						<button type="button" class="articles" onclick="pink()" style="font-size: 150%;">Pink</button>
+						<button type="button" class="articles" onclick="blue()" style="font-size: 150%;">Blue</button>
+						<button type="button" class="articles" onclick="mint()" style="font-size: 150%;">Mint</button>
+					</div>
+				</div>
+			</div>
+		</div>
 		<ul class="essay">
 			<li><button id="mlink" onclick="window.open('https://drive.google.com/file/d/1J20g-bjaFcJd567X4oeDybWowMVYuHoh/view')">Bahasa Melayu</button></li>
 			<li><button id="mlink" onclick="window.open('https://drive.google.com/file/d/16XHQMEqVKuV4L7NQbAxozNHL9B9Ki-Cy/view')">English</button></li>
