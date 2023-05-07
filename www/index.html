@@ -13,15 +13,26 @@
 	<body>
 		<script src="script.js"></script>
 		<header>
-			<a href="./index.html"><div class="frontboard"> RealEdu </div></a>
 			<div class="more">
-				<button type="button" class="articles" onclick="opentab('eduprompt')">Back</button></a>
+				<a href="./index.html"><div class="frontboard"> RealEdu </div></a>
+				<a id="inilink" href="index.html" style="display: none;"><button class="articles" style="width:120px;">Back</button></a>
 			</div>
 		</header>
-		<div id="eduprompt">
+		<div class="testing">
 			<h1 id="descbar">
 				Education level
 			</h1>
+			<div class="dropdown">
+				<button type="button" class="articles">☰</button>
+				<div class="droptions">
+					<button type="button" class="articles" onclick="gold()" style="font-size: 150%;">Gold</button>
+					<button type="button" class="articles" onclick="pink()" style="font-size: 150%;">Pink</button>
+					<button type="button" class="articles" onclick="blue()" style="font-size: 150%;">Blue</button>
+					<button type="button" class="articles" onclick="mint()" style="font-size: 150%;">Mint</button>
+				</div>
+			</div>
+		</div>
+		<div id="eduprompt">
 			<button type="button" class="tab" onclick="opentab('menu1')">
 				<div class="card">
 					<div class="topic">
@@ -38,7 +49,6 @@
         	</button>
 		</div>
 		<div id="menu1" class="maintabs" style="display:none">
-  			<h2>Primary School</h2>
   			<ul>
   				<li><a id="mlink" href="./ps/year1.html" class="psli"> Year 1 </a></li>
   				<li><a id="mlink" href="./ps/year2.html" class="psli"> Year 2 </a></li>

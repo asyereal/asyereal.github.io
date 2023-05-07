@@ -1,87 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
-
+:root {
+	--prm: #05445E;
+	--sec: #5bb4aa;
+	--fnt: #ffffff;
+	--hvr: #D4F1F4;
+	--bgi: url('./blue.png');
+}
 body{
 	transition-duration: 1s;
-	background: #189AB4;
-	color: #ffffff;
+	background-image: var(--bgi);
+	color: var(--fnt);
 	font-family: "Balsamiq Sans", cursive;
-	background-image: url('./bg.png');
-
 }
 header{
+	display: block;
 	padding-top: 0.5%;
 	padding-bottom: 0.5%;
-	background: #5bb4aa;
+	background: var(--sec);
 	border-radius: 15px;
-
 }
 .frontboard{
 	font-size: 250%;
-	margin-left: 1%;
-	margin-right: 20%;
 	display: inline-block;
-	background: #05445E;
+	background: var(--prm);
 	border: none;
-	color: white;
+	color: var(--fnt);
 	border-radius: 15px;
 	padding: 20px;
 	font-family: "Pacifico";
 }
 .more{
-	display: inline;
+	display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 10px;
 }
-@media only screen and (min-width: 425px) and (max-width: 625px) {
-	.more{
-		margin-left: 15%;
-	}
-}
-@media only screen and (min-width: 626px) and (max-width: 825px) {
-	.more{
-		margin-left: 25%;
-	}
-}
-@media only screen and (min-width: 826px) and (max-width: 1025px) {
-	.more{
-		margin-left: 41%;
-	}
-}
-@media only screen and (min-width: 1026px) and (max-width: 1225px) {
-	.more{
-		margin-left: 20%;
-	}
-}
-@media only screen and (min-width: 1226px) and (max-width: 1425px) {
-	.more{
-		margin-left: 50%;
-	}
-}
-@media only screen and (min-width: 1426px) and (max-width: 1625px) {
-	.more{
-		margin-left: 55%;
-		display: inline;
-	}
-}
-
 .articles{
 	font-size: 200%;
 	font-family: inherit;
 	display: inline-block;
-	margin: 5px;
-	background: #05445E;
+	background: var(--prm);
 	border: none;
 	border-radius: 15px;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	padding-right: 1%;
-	padding-left: 1%;
-	color: white;
-
+	color: var(--fnt);
+	height: 75px;
+	width: 75px;
 }
 .articles:hover{
 	transition-duration: 1s;
-	background: white;
-    color: #202020;
+	background: var(--hvr);
+    color: var(--prm);
 }
 .note{
 	margin: 1%;
@@ -99,29 +73,20 @@ header{
 	border-radius: 25px;
 	margin-top:10px;
 	padding: 20px;
-	color: white;
+	color: var(--fnt);
 	font-size: 175%;
 	text-align: center;
 	background-repeat: no-repeat;
 	transition-duration: 1s;
-	background: #05445E;
+	background: var(--prm);
 	font-family: "Balsamiq Sans", cursive;
 }
 .card:hover{
-	background-color: #D4F1F4;
-	color: #05445E;
+	background-color: var(--hvr);
+	color: var(--prm);
 }
 .gallery{
 	text-align: center;
-}
-.icard{
-	display: inline-flex;
-	border: 2px solid white;
-	margin: 5px 5px;
-	color: white;
-	font-size: 175%;
-	text-align: center;
-
 }
 a:link, a:visited, a:hover, a:active{
 	text-decoration: none;
@@ -144,12 +109,35 @@ a:link, a:visited, a:hover, a:active{
 }
 #mlink{
 	font-family: "Balsamiq Sans", cursive;
-	color: white;
+	color: var(--fnt);
 	font-size: 150%;
 	border: 2px solid white;
 	border-radius: 15px;
 	padding: 20px;
 	display: block;
 	margin-bottom: 10px;
-	background: #05445E;
+	background: var(--prm);
+}
+.testing {
+	display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+	margin: 10px;
+}
+.dropdown {
+	position: relative;
+}
+.droptions {
+	display: none;
+	position: absolute;
+	overflow: auto;
+    justify-content: flex-end;
+}
+.dropdown:hover .droptions{
+	display: block;
+	margin: 2px;
 }
