@@ -141,3 +141,14 @@ a:link, a:visited, a:hover, a:active{
 	display: block;
 	margin: 2px;
 }
+footer{
+	display: block;
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	background: var(--sec);
+	color: var(--fnt);
+	border-radius: 15px;
+}

@@ -36,7 +36,7 @@ function gold(){
 	document.body.style.setProperty("--prm", "#ca9c16");
 	document.body.style.setProperty("--sec", "#faed33");
 	document.body.style.setProperty("--fnt", "#ffffff");
-	document.body.style.setProperty("--hvr", "#d4f1f4");
+	document.body.style.setProperty("--hvr", "#333333");
 	document.body.style.setProperty("--bgi", "url('gold.png')");
 	localStorage.setItem("theme", "gold");
 }
@@ -44,7 +44,7 @@ function mint(){
 	document.body.style.setProperty("--prm", "#000000");
 	document.body.style.setProperty("--sec", "#00ffc2");
 	document.body.style.setProperty("--fnt", "#ffffff");
-	document.body.style.setProperty("--hvr", "#ffffff");
+	document.body.style.setProperty("--hvr", "#d4f1f4");
 	document.body.style.setProperty("--bgi", "url('mint.png')");
 	localStorage.setItem("theme", "mint");
 }
@@ -52,7 +52,7 @@ function pink(){
 	document.body.style.setProperty("--prm", "#ffa5b8");
 	document.body.style.setProperty("--sec", "#f52b8f");
 	document.body.style.setProperty("--fnt", "#ffffff");
-	document.body.style.setProperty("--hvr", "#ffffff");
+	document.body.style.setProperty("--hvr", "#333333");
 	document.body.style.setProperty("--bgi", "url('pink.png')");
 	localStorage.setItem("theme", "pink");
 }
