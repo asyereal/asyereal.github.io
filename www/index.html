@@ -14,8 +14,11 @@
 		<script src="script.js"></script>
 		<header>
 			<div class="more">
-				<a href="./index.html"><div class="frontboard"> RealEdu </div></a>
-				<a id="inilink" href="index.html" style="display: none;"><button class="articles" style="width:120px;">Back</button></a>
+				<button id="frontboard" onclick="location.reload();" type="button"> RealEdu </button>
+				<button id="inilink" onclick="location.reload()" type="button" style="font-family: Balsamiq Sans;display:none;"> < </button>
+				<!--<div class="frontboard"></div>
+					<a id="inilink" href="index.html" style="display: none;"><button class="articles" style="width:120px;">Back</button></a>
+					!-->
 			</div>
 		</header>
 		<div class="testing">
@@ -60,7 +63,6 @@
 		</div>
 
 		<div id="menu2" class="maintabs" style="display:none">
-  			<h2>Secondary School</h2>
   			<ul>
   				<li><a id="mlink" href="./ss/form1.html" class="ssli"> Form 1 </a></li>
   				<li><a id="mlink" href="./ss/form2.html" class="ssli"> Form 2 </a></li>

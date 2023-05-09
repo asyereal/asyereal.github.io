@@ -21,9 +21,8 @@ function opentab(a){
 	document.getElementById("eduprompt").style.display = "none";
 	document.getElementById(a).style.display = "block";
 	document.getElementById("inilink").style.display = "inline-block";
-	document.getElementById("descbar".innerHTML = "Primary School");
+	document.getElementById("frontboard").style.display = "none";
 }
-
 function blue(){
 	document.body.style.setProperty("--prm", "#05445E");
 	document.body.style.setProperty("--sec", "#5bb4aa");
