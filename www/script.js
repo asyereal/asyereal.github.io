@@ -43,9 +43,8 @@ function pink(){
 	document.body.style.setProperty("--bgi", "url('pink.png')");
 	localStorage.setItem("theme", "pink");
 }
-if(localStorage.getItem("theme") == "null"){
-	blue();
-}if(localStorage.getItem("theme") == "blue"){
+blue();
+if(localStorage.getItem("theme") == "blue"){
 	blue();
 }else if(localStorage.getItem("theme") == "gold"){
 	gold();
