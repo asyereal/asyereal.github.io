@@ -34,7 +34,8 @@
 			"category": "Utility"
 		},
 		"win": {
-			"target": "NSIS"
+			"target": "NSIS",
+			"icon": "resources/icon-only.png"
 		}
 	},
 	"devDependencies": {
