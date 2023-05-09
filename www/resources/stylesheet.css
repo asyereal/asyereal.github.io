@@ -13,6 +13,9 @@ body{
 	color: var(--fnt);
 	font-family: "Balsamiq Sans", cursive;
 }
+a:link, a:visited, a:hover, a:active{
+	text-decoration: none;
+}
 header{
 	display: block;
 	padding-top: 0.5%;
@@ -20,7 +23,7 @@ header{
 	background: var(--sec);
 	border-radius: 15px;
 }
-.frontboard{
+#frontboard{
 	font-size: 250%;
 	display: inline-block;
 	background: var(--prm);
@@ -29,6 +32,17 @@ header{
 	border-radius: 15px;
 	padding: 20px;
 	font-family: "Pacifico";
+}
+#inilink{
+	font-size: 200%;
+	font-family: inherit;
+	display: inline-block;
+	background: var(--prm);
+	border: none;
+	border-radius: 15px;
+	color: var(--fnt);
+	height: 75px;
+	width: 75px;
 }
 .more{
 	display: flex;
@@ -87,10 +101,6 @@ header{
 }
 .gallery{
 	text-align: center;
-}
-a:link, a:visited, a:hover, a:active{
-	text-decoration: none;
-
 }
 .tab{
 	background-color: transparent;
