@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 :root {
-	--prm: #05445E;
-	--sec: #5bb4aa;
-	--fnt: #ffffff;
-	--hvr: #D4F1F4;
-	--bgi: url('./blue.png');
+	--prm: ;
+	--sec: ;
+	--fnt: ;
+	--hvr: ;
+	--bgi: ;
 }
 body{
 	transition-duration: 1s;
