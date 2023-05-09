@@ -1,15 +1,3 @@
-if(localStorage.getItem("theme") == "null"){
-	blue();
-}if(localStorage.getItem("theme") == "blue"){
-	blue();
-}else if(localStorage.getItem("theme") == "gold"){
-	gold();
-}else if(localStorage.getItem("theme") == "pink"){
-	pink();
-}else if(localStorage.getItem("theme") == "mint"){
-	mint();
-}
-
 var language = "en";
 var edulevel = "menu1"
 function opentab(a){
@@ -55,3 +43,15 @@ function pink(){
 	document.body.style.setProperty("--bgi", "url('pink.png')");
 	localStorage.setItem("theme", "pink");
 }
+if(localStorage.getItem("theme") == "null"){
+	blue();
+}if(localStorage.getItem("theme") == "blue"){
+	blue();
+}else if(localStorage.getItem("theme") == "gold"){
+	gold();
+}else if(localStorage.getItem("theme") == "pink"){
+	pink();
+}else if(localStorage.getItem("theme") == "mint"){
+	mint();
+}
+
