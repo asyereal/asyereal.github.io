@@ -1,5 +1,5 @@
 if(localStorage.getItem("theme") == "null"){
-	mint();
+	blue();
 }if(localStorage.getItem("theme") == "blue"){
 	blue();
 }else if(localStorage.getItem("theme") == "gold"){
