@@ -11,4 +11,4 @@ git add -A
 git commit -m "$1"
 
 # Push source and build repos.
-git push -u origin beta
+git push -u origin main
