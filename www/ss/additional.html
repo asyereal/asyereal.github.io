@@ -8,13 +8,14 @@
         <meta name="viewport" content="width=device-width initial-scale=1.0">
         <title>RealEdu</title>
 		<link rel="stylesheet" href="../resources/stylesheet.css">
-		<link rel="shortcut icon" href="favicon.png">
+		<link rel="shortcut icon" href="../resources/favicon.png">
 	</head>
 	<body>
 		<script src="../script.js"></script>
 		<header>
 			<div class="more">
-				<button id="inilink" onclick="history.back()" type="button" style="font-family: Balsamiq Sans;"> < </button>
+				<button id="inilink1" onclick="localStorage.setItem('openmenu', 2); history.back()" type="button" style="font-family: Balsamiq Sans; display: inline-block;"> < </button>
+				<button id="inilink2" onclick="location.reload()" type="button" style="font-family: Balsamiq Sans; display:none;"> < </button>
 			</div>
 		</header>
 		<div class="testing">
@@ -31,7 +32,7 @@
 		</div>
 		</div>
 		<div id="eduprompt">
-			<button type="button" class="tab" onclick="opentab('menu1')">
+			<button type="button" class="tab" onclick="opentab('menu1');additionalmenu();">
 				<div class="card">
 					<div class="topic">
 						Pure Science

@@ -1,5 +1,5 @@
 var language = "en";
-var edulevel = "menu1"
+//var edulevel = "menu1"
 function opentab(a){
 	var i;
 	var x = document.getElementsByClassName("maintabs");
@@ -54,4 +54,16 @@ if(!localStorage.getItem("theme")){
 	pink();
 }else if(localStorage.getItem("theme") == "mint"){
 	mint();
+}
+function testopen(){
+	if(localStorage.getItem('openmenu') == 1){
+		opentab('menu1')
+	}
+	if(localStorage.getItem('openmenu') == 2){
+		opentab('menu2')
+	}
+}
+function additionalmenu(){
+	document.getElementById("inilink2").style.display = "inline-block";
+	document.getElementById("inilink1").style.display = "none";
 }
