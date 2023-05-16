@@ -33,10 +33,9 @@ header{
 	padding: 20px;
 	font-family: "Pacifico";
 }
-#inilink{
+#inilink, #inilink1, #inilink2{
 	font-size: 200%;
 	font-family: inherit;
-	display: inline-block;
 	background: var(--prm);
 	border: none;
 	border-radius: 15px;

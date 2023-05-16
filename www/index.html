@@ -10,12 +10,12 @@
 		<link rel="stylesheet" href="./resources/stylesheet.css">
 		<link rel="shortcut icon" href="./resources/favicon.png">
 	</head>
-	<body>
+	<body onload="console.log(localStorage.getItem('openmenu')); testopen()">
 		<script src="script.js"></script>
 		<header>
 			<div class="more">
 				<button id="frontboard" onclick="location.reload();" type="button"> RealEdu </button>
-				<button id="inilink" onclick="location.reload()" type="button" style="font-family: Balsamiq Sans;display:none;"> < </button>
+				<button id="inilink" onclick="localStorage.setItem('openmenu', 0); location.reload();" type="button" style="font-family: Balsamiq Sans;display:none;"> < </button>
 			</div>
 		</header>
 		<div class="testing">
