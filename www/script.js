@@ -1,5 +1,9 @@
 var language = "en";
 //var edulevel = "menu1"
+function additionalmenu(){
+	document.getElementById("inilink2").style.display = "inline-block";
+	document.getElementById("inilink1").style.display = "none";
+}
 function opentab(a){
 	var i;
 	var x = document.getElementsByClassName("maintabs");
@@ -8,8 +12,20 @@ function opentab(a){
 	}
 	document.getElementById("eduprompt").style.display = "none";
 	document.getElementById(a).style.display = "block";
+
 	document.getElementById("inilink").style.display = "inline-block";
 	document.getElementById("frontboard").style.display = "none";
+}
+function aopentab(a){
+	var i;
+	var x = document.getElementsByClassName("maintabs");
+	for(i = 0; i < x.length; i++){
+		x[i].style.display = "none";
+	}
+	document.getElementById("eduprompt").style.display = "none";
+	document.getElementById(a).style.display = "block";
+	document.getElementById("inilink2").style.display = "inline-block";
+	document.getElementById("inilink1").style.display = "none";
 }
 function blue(){
 	document.body.style.setProperty("--prm", "#05445E");
@@ -62,8 +78,4 @@ function testopen(){
 	if(localStorage.getItem('openmenu') == 2){
 		opentab('menu2')
 	}
-}
-function additionalmenu(){
-	document.getElementById("inilink2").style.display = "inline-block";
-	document.getElementById("inilink1").style.display = "none";
 }
