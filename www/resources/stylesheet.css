@@ -161,3 +161,12 @@ footer{
 	color: var(--fnt);
 	border-radius: 15px;
 }
+.supp{
+	display: inline-block;
+	background: var(--prm);
+	border: none;
+	color: var(--fnt);
+	border-radius: 5px;
+	padding: 5px;
+	margin: 5px;
+}
