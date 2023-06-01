@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# NEVER miss version number update again
+$EDITOR package.json
+
 # Add changes to git.
 git add -A
 
@@ -8,7 +11,7 @@ git add -A
 #if [ $# -eq 1 ]
 #  then msg="$1"
 #fi
-git commit -m "$1"
+git commit
 
 # Push source and build repos.
 git push -u origin main
