@@ -3,8 +3,8 @@ const {app, BrowserWindow, Menu} = require("electron");
 
 const isDev = process.env.NODE_ENV !== "production";
 
-const isWin = process.platform === "win32";
-const isGNU = process.platform === "linux";
+//const isWin = process.platform === "win32";
+//const isGNU = process.platform === "linux";
 const isMac = process.platform === "darwin";
 
 function createMainWindow(){
