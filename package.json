@@ -39,6 +39,10 @@
 		}
 	},
 	"devDependencies": {
+		"@capacitor/android": "^5.1.0",
+		"@capacitor/cli": "^5.1.0",
+		"@capacitor/core": "^5.1.0",
+		"cordova-res": "^0.15.4",
 		"electron": "latest",
 		"electron-builder": "^24.3.0"
 	}
