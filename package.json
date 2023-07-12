@@ -4,7 +4,7 @@
 	"productName": "RealEdu",
 	"version": "1.2.5",
 	"license": "GPL3",
-	"description": "A collaborative project to unify learning",
+	"description": "Unifying education",
 	"author": "realoss <realedu957@gmail.com>",
 	"main": "main.js",
 	"scripts": {
