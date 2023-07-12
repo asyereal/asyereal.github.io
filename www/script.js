@@ -1,5 +1,6 @@
 var language = "en";
 //var edulevel = "menu1"
+// codebase requires reform
 function additionalmenu(){
 	document.getElementById("inilink2").style.display = "inline-block";
 	document.getElementById("inilink1").style.display = "none";
