@@ -30,12 +30,12 @@
 		},
 		"linux": {
 			"target": "AppImage",
-			"icon": "resources/icon-only.png",
+			"icon": "resources/icon.png",
 			"category": "Utility"
 		},
 		"win": {
 			"target": "NSIS",
-			"icon": "resources/icon-only.png"
+			"icon": "resources/icon.png"
 		}
 	},
 	"devDependencies": {
