@@ -16,3 +16,4 @@ build
 
 # Ignore private assets
 assets
+patch_goal.md
