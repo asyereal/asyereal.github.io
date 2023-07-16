@@ -4,12 +4,18 @@
 	--prm: ;
 	--sec: ;
 	--fnt: ;
+	--fsc: ;
 	--hvr: ;
 	--bgi: ;
 }
 body{
 	transition-duration: 1s;
 	background-image: var(--bgi);
+	background-repeat: no-repeat;
+	background-origin: content-box;	
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
 	color: var(--fnt);
 	font-family: "Balsamiq Sans", cursive;
 }
@@ -145,7 +151,7 @@ footer{
 	padding-top: 0.5%;
 	padding-bottom: 0.5%;
 	background: var(--sec);
-	color: var(--fnt);
+	color: var(--fsc);
 	border-radius: 15px;
 }
 .supp{
@@ -162,4 +168,5 @@ footer{
 	padding: 1%;
 	background: var(--sec);
 	border-radius: 15px;
+	color: var(--fsc);
 }
