@@ -16,13 +16,6 @@ body{
 a:link, a:visited, a:hover, a:active{
 	text-decoration: none;
 }
-header{
-	display: block;
-	padding-top: 0.5%;
-	padding-bottom: 0.5%;
-	background: var(--sec);
-	border-radius: 15px;
-}
 #frontboard{
 	font-size: 250%;
 	display: inline-block;
@@ -72,12 +65,6 @@ header{
 }
 .note{
 	margin: 1%;
-
-}
-.pagename{
-	font-size: 300%;
-	margin-top: none;
-	margin-bottom: 1%;
 
 }
 .card{
@@ -169,4 +156,10 @@ footer{
 	border-radius: 5px;
 	padding: 5px;
 	margin: 5px;
+}
+#descbar{
+	display: block;
+	padding: 1%;
+	background: var(--sec);
+	border-radius: 15px;
 }

@@ -27,6 +27,14 @@ function aopentab(a){
 	document.getElementById(a).style.display = "block";
 	document.getElementById("inilink2").style.display = "inline-block";
 	document.getElementById("inilink1").style.display = "none";
+	if(a == "menu1")
+		document.getElementById("descbar").innerHTML="Pure Science";
+	if(a == "menu2")
+		document.getElementById("descbar").innerHTML="Account";
+	if(a == "menu3")
+		document.getElementById("descbar").innerHTML="Islamic Studies";
+	if(a == "menu4")
+		document.getElementById("descbar").innerHTML="Additionals";
 }
 function blue(){
 	document.body.style.setProperty("--prm", "#05445E");
