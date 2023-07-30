@@ -5,6 +5,7 @@ node_modules
 dist
 android
 capacitor.config.ts
+package-lock.json
 sdk
 #.commit
 
