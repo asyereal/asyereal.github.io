@@ -7,8 +7,8 @@ android
 capacitor.config.ts
 package-lock.json
 sdk
-#.commit
 .vscode
+#.commit
 
 # Ignore Gradle project-specific cache directory
 .gradle
@@ -18,4 +18,5 @@ build
 
 # Ignore private assets
 assets
+TESTING
 patch_goal.md
