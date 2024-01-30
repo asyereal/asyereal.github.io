@@ -77,8 +77,8 @@ a:link, a:visited, a:hover, a:active{
 	display: block;
 	border: 2px solid white;
 	border-radius: 25px;
-	margin-top:10px;
-	padding: 20px;
+	margin:10px;
+	padding: 10px;
 	color: var(--fnt);
 	font-size: 175%;
 	text-align: center;
@@ -169,4 +169,16 @@ footer{
 	background: var(--sec);
 	border-radius: 15px;
 	color: var(--fsc);
+}
+#abstract{
+	border: 2px solid white;
+	border-radius: 25px;
+	margin-top:10px;
+	padding: 20px;
+	color: white;
+	font-size: 125%;
+	background-repeat: no-repeat;
+	transition-duration: 1s;
+	background: var(--prm);
+	font-family: "Times New Roman";
 }

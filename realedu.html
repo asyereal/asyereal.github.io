@@ -12,57 +12,113 @@
 	</head>
 
 	<body
-		style="--prm: #062154; --sec: #00f6ff; --fnt: #ffffff; --hvr: #d4f1f4;background-image: url('resources/background.png');">
+		style="--prm: #181f44; --sec: #000b1f; --fnt: #ffffff; --fsc: #ffffff; --hvr: #d4f1f4;background-image: url('www/resources/purpl.png');">
+		<script>
+			function togArt(a) {
+				document.getElementById(a).style.display = "block";
+				//document.getElementById("tab").style.display = "none";
+				var i;
+				var x = document.getElementsByClassName("notdownload");
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+			}
+		</script>
 		<header>
 			<div class="more">
 				<div>
-					<button style="border: 1px solid white;" id="frontboard" onclick="location.reload();" type="button">
-						<img style="display: inline;" src="./resources/pioneers.png" height="50" width="50">
+					<button style="border: 1px solid white; background-color: var(--sec);" id="frontboard"
+						onclick="history.back();" type="button">
+						<img style="display: inline;" src="./resources/icon.png" height="50" width="50">
 					</button>
 					<!--<img style="display: inline;" src="./resources/kufic.png" height="50" width="50">!-->
 				</div>
-				<button id="inilink" onclick="location.reload()" type="button"
-					style="font-family: Balsamiq Sans;display:none;">
-					< </button>
 			</div>
 		</header>
 		<h2 id="descbar">
-			Pioneered by REAL Group
+			PioneersMTNP by REAL Group
 		</h2>
-		<a href="www/index.html">
-			<div class="card" style="text-align: left;">
+		<div class="notdownload" style="display: flex; justify-content: center;align-items: center;">
+			<div class="card" style="display: inline-block;width: 50%;">
+				<div class="topic"
+					style="justify-content: center; display: flex; text-align: center; align-items: center; align-content: center;">
+					Featured video
+				</div>
+				<iframe width="360" height="202" src="https://www.youtube.com/embed/NRvQ7wutxSg"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen></iframe>
+			</div>
+			<div style="display: inline-block;width: 45%;">
+				<a href="www/index.html" class="card" style="display: block;">
+					<div class="topic">
+						RealEdu Web
+					</div>
+					<br>
+					Click here to obtain e-textbooks
+				</a>
+				<button onclick="togArt('download')" class="tab" id="tab">
+					<div class="card" style="display: block;">
+						<div class="topic">
+							Download RealEdu
+						</div>
+						<br>
+						Get a local copy of RealEdu
+					</div>
+				</button>
+			</div>
+		</div>
+		<button onclick="togArt('abstract')" class="tab notdownload" id="tab">
+			<div class="card">
 				<div class="topic">
-					RealEdu Web
+					About RealEdu
 				</div>
 				<br>
-				- Click here to obtain e-textbooks
+				Our motives, background and achievements
 			</div>
-		</a>
-		<div class="card">
-			<div class="topic"
-				style="justify-content: center; display: flex; text-align: center; align-items: center; align-content: center;">
-				Featured video
+		</button>
+		<div id="abstract" style="display: none;">
+			<p style="text-align: center; font-size: 145%;">ABSTRACT</p>
+			<p align="justify">
+			Since the world is developing towards digitalization of 21st century learning, students are exposed to technology enhanced learning,which includes the use of E-Textbooks
+However, Students having difficulties to search for e-text books online.Existing websites are unorganized, Full of advertisment and doesn't include all e-textbooks.
+Introducing RealEdu,A web app that unifies primary and secondary KSSM e-textbooks in one platform and can accessed by everyone.
+RealEdu enables users,  especially primary and secondary students to access e-textbooks easily.Students also can change the colour theme according to their taste.In addition,RealEdu provides notepad function for students to jot down notes
+For current development,RealEdu accessible on our website.RealEdu can be downloaded now on Windows,Linux and android.
+			</p>
+			<br>
+			<p style="text-align: center;font-size: 145%;">ELABORATION</p>
+			<div style="text-align: left;">
+				<p style="text-align: center;">REALEDU, PIONEERING EDUCATION</p>
+				<p align="justify">The modernization of education in Malaysia is expected to grow rapidly to cater to the current educational issues. The utilization of e-textbooks as a learning medium among primary and secondary students in the country is seeing improvement to the quality of learning in schools. The use of e-textbooks also addresses the heavy schoolbags issues where the students have packed syllabuses, forcing them to lug heavy school bags. However, existing sources on the internet are limited and inefficient in providing easy access for students. To illustrate, some channels do not offer all KSSM and KSSR e-textbooks and require users to download the material in order to see the preview which takes up their data and storage.</p>
+				<p align="justify">&emsp;As a result, RealEdu was created to solve the problem. Its objective is to unify all KSSM e-textbooks on one platform and provide reachable e-textbooks sources for everyone. This web app would allow e-textbooks to be previewed and downloaded, enabling the users to open the e-textbooks offline wherever they are. RealEDU is designed as a catalogue of textbook sources that was developed by compiling them into a list. Then the links to the sources were organised into a web-app built using HTML and JavaScript. The web-app was then packaged into application executables using the ElectronJS framework. Currently, application executables are available for Android, Windows and Linux. </p>
+				<p align="justify">&emsp;Furthermore, RealEDU is marketable for primary and secondary schools nationwide because it is free and accessible for all. RealEDU is intended to be marketed through two stages. For the first stage, which we are currently undergoing, this web-app would be free since we just wanted people to have easy access to e-textbooks. Nevertheless, when we have further developed our app in the future, we will continue to the second stage by introducing a subscription based app such as premium service for users. Subsequently, the premium subscribers would have access to extra educational contents for instance, learning videos, quizzes and exercises specially to help students boost their learning experience.</p>
+				<p align="justify">&emsp;In summary, RealEdu is parallel with the Government Education Blueprint 2020–2025 (TS25) which is a part of the Malaysian Ministry of Education's efforts towards improving the quality of students and schools and align with the current needs of education in our country. For the most part, acting as a tool to prepare society for the digitization of education. In addition, RealEDU can also benefit the environment by encouraging people towards paperless products. Gradually, we could also lessen waste in paper-related industries e.g. books and textbooks and reduce carbon emission. With that, RealEDU can conserve natural resources and follow SDG 13 which is an effort for combating climate changes and SDG 4 to promote lifelong learning opportunity for all.</p>
 			</div>
-			<iframe width="360" height="202" src="https://www.youtube.com/embed/NRvQ7wutxSg"
-				title="YouTube video player" frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-				allowfullscreen></iframe>
 		</div>
-		<h2>Download for Mobile</h2>
-		<ul>
-			<li><a href="app-release.apk">
-					<div class="card">Download for Android</div>
-				</a></li>
-		</ul>
-		<h2>Download for Desktop</h2>
-		<ul>
-			<li><a href="https://drive.google.com/file/d/1CUb5E34OBOtx-vnD9k2CXDsoix_23Ed3/view?usp=sharing">
-					<div class="card">Download for Windows (64-Bit)</div>
-				</a></li>
-			<li><a href="https://drive.google.com/file/d/1ZEIUFTd9TzvkMfRE5SruY_6wXSCm0i5i/view?usp=share_link">
-					<div class="card">Download for Linux (64-Bit)</div>
-				</a></li>
-		</ul>
+		<div id="download" style="display: none;">
+			<h2>Download for Mobile</h2>
+			<ul>
+				<li>
+					<a href="resources/app-release.apk">
+						<div class="card">Download for Android</div>
+					</a>
+				</li>
+			</ul>
+			<h2>Download for Desktop</h2>
+			<ul>
+				<li>
+					<a href="https://drive.google.com/file/d/1CUb5E34OBOtx-vnD9k2CXDsoix_23Ed3/view?usp=sharing">
+						<div class="card">Download for Windows (64-Bit)</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://drive.google.com/file/d/1ZEIUFTd9TzvkMfRE5SruY_6wXSCm0i5i/view?usp=share_link">
+						<div class="card">Download for Linux (64-Bit)</div>
+					</a>
+				</li>
+			</ul>
+		</div>
 	</body>
 
 </html>

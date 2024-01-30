@@ -3,16 +3,24 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" dir="ltr">
 		<meta name="author" content="PioneersMTNP">
-		<meta name="title" content="ReSolve Go">
-		<meta name="description" content="ReSolve Go is our innovative idea on the development of new Muslims">
+		<meta name="title" content="RESolve Go">
+		<meta name="description" content="RESolve Go is our innovative idea on the development of new Muslims">
 		<meta name="viewport" content="width=device-width initial-scale=1.0">
 		<title>PioneersMTNP</title>
 		<link rel="shortcut icon" href="resources/kufic.png">
 		<link rel="stylesheet" href="./www/resources/stylesheet.css">
 	</head>
-
-	<body
-		style="--prm: #1a1a1a; --sec: #ca9c16; --fnt: #faed33; --fsc: #ffffff; --hvr: #0f0f0f;background-image: url('./resources/background2.png');">
+	<body style="--prm: #1a1a1a; --sec: #ca9c16; --fnt: #faed33; --fsc: #ffffff; --hvr: #0f0f0f;background-image: url('./resources/background2.png');">
+		<script>
+			function togArt(a) {
+				document.getElementById(a).style.display = "block";
+				var i;
+				var x = document.getElementsByClassName("card");
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+			}
+		</script>
 		<header>
 			<div class="more">
 				<div>
@@ -20,28 +28,16 @@
 					<button style="border: 1px solid #faed33;" id="frontboard" onclick="location.reload();" type="button"> PioneersMTNP </button>
 					<img style="display: inline;" src="./resources/kufic.png" height="50" width="50">
 					-->
-					<button style="border: 1px solid #faed33;" id="frontboard" onclick="location.reload();"
+					<button style="border: 1px solid #faed33;" id="frontboard" onclick="history.back();"
 						type="button">
 						<img style="display: inline;" src="./resources/kufic.png" height="50" width="50">
 					</button>
 				</div>
-				<button id="inilink" onclick="location.reload()" type="button"
-					style="font-family: Balsamiq Sans;display:none;">
-					< </button>
 			</div>
 		</header>
 		<h2 id="descbar">
-			Pioneered by REAL Group
+			PioneersMTNP by REAL Group
 		</h2>
-		<a href="resolvego.html">
-			<div class="card" style="text-align: left;">
-				<div class="topic">
-					ReSolve Go
-				</div>
-				<br>
-				Under Development
-			</div>
-		</a>
 		<div class="card">
 			<div class="topic"
 				style="justify-content: center; display: flex; text-align: center; align-items: center; align-content: center;">
@@ -51,6 +47,35 @@
 				title="YouTube video player" frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 				allowfullscreen></iframe>
+		</div>
+		<div>
+			<button onclick="togArt('abstract')" class="tab" id="tab" style="text-align: left;">
+				<div class="card">
+					<div class="topic">
+						About RESolve Go
+					</div>
+					<br>
+					Our motives, background and achievements
+				</div>
+			</button>
+		</div>
+		<div id="abstract" style="display: none;">
+			<p style="text-align: center; font-size: 145%;">ABSTRACT</p>
+			<p align="justify">
+			In the transformative journey of new Muslim converts, embracing Islam introduces profound changes, with prayer, or "solah," standing as a central practice. Unfortunately, many reverts encounter challenges in practicing solah independently due to lack of comprehensive guidance. Existing tools such as smart prayer mats often fall short in providing the necessary support for understanding Arabic recitations and precise movements during solah. Enter RESolve Go, an innovative LED screen integrated with AI and voice control to enhance praying experience. This cutting-edge feature guides users through step-by-step movements, Arabic recitations, translations, and transliterations, facilitating a deeper connection to the prayer experience for Muslim converts. On the technical front, RESolve Go utilizes a high-resolution LED screen, offering vivid visuals for clear guidance. The integrated camera uses advanced motion tracking using AI for precise user posture, enhancing the overall prayer experience. The voice control module, designed with user-friendliness in mind, enables users to interact with RESolve Go by using voice commands. Targeting Islamic centres, mosques, and communities initially, RESolve Go aims to assist and provide a better experience for converts. The innovation addresses a growing demand for tailored solutions within Islam, underlining its potential marketability and significant impact on enhancing solah practice.
+			</p>
+			<br>
+			<p style="text-align: center; font-size: 145%;">
+				ELABORATION
+			</p>
+			<div style="text-align: left;">
+				<p style="text-align: center;">RESOLVE GO, AN ASSISTANT FOR MUSLIM CONVERTS TO PRACTICE PRAYER</p>
+<p align="justify">RESolve Go is a revolutionary idea for tools that facilitate independent prayer practice for new converts. It includes a built-in LED screen to ensure high-quality image can be displayed, with its wide and slim screen allowing for a compact, versatile, and portable solution. Furthermore, the wide screen ensures clear and readable recitations for new converts during prayer. The LED can be folded into a suitcase form for better portability.</p>
+<p align="justify">&emsp;RESolve Go includes a built-in software, artificial intelligence (AI), motion detection camera, speakers and microphone. The AI displays recitation, translation and transliteration accordingly based on the current step in the procedural order of the prayer. RESolved Go utilizes speech recognition technology to detect and correct recitation mistakes by the user. Both features work alongside creating a system that offers user-friendly automation and smooth transitioning to the next step in Salah once a user has completed a step.</p>
+<p align="justify">&emsp;Additionally, RESolve GO enhances engagement by dynamically highlighting each recited word, aiding users in following along the recitations with precision. Beyond recitation, this blend of real-time error detection, word highlighting, and automated progression fosters a supportive and immersive environment for users practicing their recitation and Salah rituals. Motion tracking plays a crucial role particularly in addressing postural correctness during prayer. This integration holds significant value in mitigating the risk of mistakes that could potentially invalidate a prayer. These errors encompass any intentional nor unintentional neglect of posture correctness in positions of Solah like Rukoo' and Sujood besides deviation from the Qiblah direction, and any unnecessary movements not prescribed in Salah. By leveraging motion tracking technology, our product aims to enhance the user's prayer experience by providing real-time corrections, promoting a more accurate and fulfilling performance of Salah.</p>
+<p align="justify">&emsp;The software includes 2 modes of operation. The first mode is “Learning Mode” where the system operates in real-time, detecting errors and notifying them through notification pop-ups. Thus, the user can learn the do’s and don’ts in prayer. The second is “Practising Mode” where the software will display all the recitations and images of the prayer accordingly. The Motion Detection Camera detects any errors and improvements during the prayer. At the end of the prayer, it will display all the improvements and errors that need to be improved and maintain.</p>
+<p align="justify">&emsp;In summary, RESolve Go encompasses the solutions needed to challenge the current status quo faced by new converts in practicing prayer since it aligned with SDG 4, quality of education by providing guide for new converts to practice prayer independently.</p>
+			</div>
 		</div>
 	</body>
 </html>
