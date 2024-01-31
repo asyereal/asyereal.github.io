@@ -98,8 +98,8 @@ a:link, a:visited, a:hover, a:active{
 	display: contents;
 }
 .topic{
-	font-size: 145%;
-	border-bottom: 2px solid white;
+	font-size: 125%;
+	border-bottom: none;
 	display: inline-block;
 	margin-bottom: 2%;
 	justify-content: center;
