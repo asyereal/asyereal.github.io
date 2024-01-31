@@ -179,7 +179,7 @@ footer{
 	background-repeat: no-repeat;
 	transition-duration: 1s;
 	background: var(--prm);
-	font-family: "Times New Roman";
+	font-family: "Arial";
 }
 .tab{
 	width: 100%;
