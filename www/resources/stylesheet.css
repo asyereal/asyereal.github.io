@@ -22,7 +22,7 @@ body{
 a:link, a:visited, a:hover, a:active{
 	text-decoration: none;
 }
-#frontboard{
+#frontboard, #frontboard2{
 	font-size: 250%;
 	display: inline-block;
 	background: var(--prm);

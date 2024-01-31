@@ -19,17 +19,17 @@
 				for (i = 0; i < x.length; i++) {
 					x[i].style.display = "none";
 				}
+				document.getElementById("frontboard").style.display = "none";
+				document.getElementById("frontboard2").style.display = "inline-block";
 			}
 		</script>
 		<header>
 			<div class="more">
 				<div>
-					<!--
-					<button style="border: 1px solid #faed33;" id="frontboard" onclick="location.reload();" type="button"> PioneersMTNP </button>
-					<img style="display: inline;" src="./resources/kufic.png" height="50" width="50">
-					-->
-					<button style="border: 1px solid #faed33;" id="frontboard" onclick="history.back();"
-						type="button">
+					<button style="border: 1px solid #faed33;" id="frontboard" onclick="history.back();" type="button">
+						<img style="display: inline;" src="./resources/kufic.png" height="50" width="50">
+					</button>
+					<button style="border: 1px solid #faed33; display: none;" id="frontboard2" onclick="location.reload();" type="button">
 						<img style="display: inline;" src="./resources/kufic.png" height="50" width="50">
 					</button>
 				</div>
