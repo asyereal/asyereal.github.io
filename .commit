@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+$EDITOR package.json
 # Add changes to git.
 git add -A
 

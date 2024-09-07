@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+:root {
+	--prm: ;
+	--sec: ;
+	--fnt: ;
+	--fsc: ;
+	--hvr: ;
+	--bgi: ;
+}
+body{
+	transition-duration: 1s;
+	background-image: var(--bgi);
+	background-repeat: no-repeat;
+	background-origin: content-box;	
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	color: var(--fnt);
+	font-family: "Balsamiq Sans", cursive;
+}
+a:link, a:visited, a:hover, a:active{
+	text-decoration: none;
+}
+#frontboard, #frontboard2{
+	font-size: 250%;
+	display: inline-block;
+	background: var(--prm);
+	border: none;
+	color: var(--fnt);
+	border-radius: 15px;
+	padding: 20px;
+	font-family: "Pacifico";
+}
+#inilink, #inilink1, #inilink2{
+	font-size: 200%;
+	font-family: inherit;
+	background: var(--prm);
+	border: none;
+	border-radius: 15px;
+	color: var(--fnt);
+	height: 75px;
+	width: 75px;
+}
+.more{
+	display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 10px;
+}
+.articles{
+	font-size: 200%;
+	font-family: inherit;
+	display: inline-block;
+	background: var(--prm);
+	border: none;
+	border-radius: 15px;
+	color: var(--fnt);
+	height: 75px;
+	width: 75px;
+}
+.articles:hover{
+	transition-duration: 1s;
+	background: var(--hvr);
+    color: var(--prm);
+}
+.card{
+	display: block;
+	border: 2px solid white;
+	border-radius: 25px;
+	margin:10px;
+	padding: 10px;
+	color: var(--fnt);
+	font-size: 175%;
+	text-align: center;
+	background-repeat: no-repeat;
+	transition-duration: 1s;
+	background: var(--prm);
+	font-family: "Balsamiq Sans", cursive;
+}
+.card:hover{
+	background-color: var(--hvr);
+	color: var(--prm);
+}
+.notdownload{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tab{
+	background-color: transparent;
+	border: none;
+	display: contents;
+}
+.topic{
+	font-size: 125%;
+	border-bottom: none;
+	display: inline-block;
+	margin-bottom: 2%;
+	justify-content: center;
+}
+.essay{
+	font-size: 150%;
+	margin: 1%;
+}
+#mlink{
+	font-family: "Balsamiq Sans", cursive;
+	color: var(--fnt);
+	font-size: 150%;
+	border: 2px solid white;
+	border-radius: 15px;
+	padding: 20px;
+	display: block;
+	margin-bottom: 10px;
+	background: var(--prm);
+}
+.textbooks {
+	display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+	margin: 10px;
+}
+.dropdown {
+	position: relative;
+}
+.droptions {
+	display: none;
+	position: absolute;
+	overflow: auto;
+    justify-content: flex-end;
+}
+.dropdown:hover .droptions{
+	display: block;
+	margin: 2px;
+}
+footer{
+	display: block;
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	background: var(--sec);
+	color: var(--fsc);
+	border-radius: 15px;
+}
+.supp{
+	display: inline-block;
+	background: var(--prm);
+	border: none;
+	color: var(--fnt);
+	border-radius: 5px;
+	padding: 5px;
+	margin: 5px;
+}
+#descbar{
+	display: block;
+	padding: 1%;
+	background: var(--sec);
+	border-radius: 15px;
+	color: var(--fsc);
+}
+#abstract{
+	border: 2px solid white;
+	border-radius: 25px;
+	margin-top:10px;
+	padding: 20px;
+	color: white;
+	font-size: 125%;
+	background-repeat: no-repeat;
+	transition-duration: 1s;
+	background: var(--prm);
+	font-family: "Arial";
+}
+.tab{
+	width: 100%;
+}
+@media only screen and (max-width: 767.98px) {
+	.notdownload{
+		display: block;
+	}
+	.card{
+		font-size: 125%;
+	}
+	#descbar{
+		font-size: 100%;
+	}
+	iframe[src*=youtube]{
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+	}
+}
