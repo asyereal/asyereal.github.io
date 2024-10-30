@@ -1,0 +1,22 @@
+# Ignore node modules
+node_modules
+
+# Ignore build directories and files
+dist
+android
+capacitor.config.ts
+package-lock.json
+sdk
+.vscode
+#.commit
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+# Ignore private assets
+assets
+TESTING
+patch_goal.md
