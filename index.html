@@ -9,12 +9,10 @@
 		<title>asyer</title>
 		<link rel="shortcut icon" href="favicon.png">
 	</head>
-
 	<body>
-		<img src="favicon.png" alt="my honest reakt 2 u gamba takle load">
-		<p style="font-family: arial; font-size: xx-large;">asyer</p>
-		<p style="font-family: arial; font-size: xx-large;">
-		</p>
+    <button type="button" onclick="fire();"><img src="favicon.png" alt="candy"></button>
+		<p id="fire" style="font-family: arial; font-size: xx-large; display:block;">asyer</p>
+    <div id="motd" style="font-family: arial; font-size: large; display: none;">This is a sample text</div>
 		<style>
 			body {
 				background-color: rgb(33, 33, 33);
@@ -23,29 +21,45 @@
 				text-align: center;
 				overflow: hidden;
 				text-overflow: clip;
+        transition-duration: 1s;
 			}
-
+			button{
+				background: none;
+				display: inline;
+				text-decoration: none;
+				border: none;
+			}
 			img{
 				width: 25%;
 				height: 25%;
-				border-radius: 50px;
+				border-radius: 50%;
+        border: 3px solid white;
 			}
-			.button{
-				background-color: white;
-				display: inline-block;
-				text-decoration: none;
-				color: black;
-				border-radius: 25px;
-				padding: 2%;
-				border: 2px solid black;
-				width: 25%;
-			}
+      div{
+        text-align: left;
+      }
 			@media only screen and (min-width: 992px)/* and (max-width: 1199.98px) */{
 				img{
-					width: 25%;
-					height: 25%;
+					width: 10%;
+					height: 10%;
 				}
 			}
 		</style>
+    <script>
+      function fire(){
+        fetch('motd.txt').then(response => response.text()).then(data => {
+          document.getElementById('motd').innerHTML = data;
+        }).catch(error => {
+          document.getElementById('motd').innerHTML = "No new message";
+        })
+        if(document.getElementById("fire").style.display == "block"){
+          document.getElementById("fire").style.display = "none";
+          document.getElementById("motd").style.display = "block";
+        }else{
+          document.getElementById("fire").style.display = "block";
+          document.getElementById("motd").style.display = "none";
+        }
+      }
+    </script>
 	</body>
 </html>
