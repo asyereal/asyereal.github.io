@@ -3,13 +3,22 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html charset=UTF-8" dir="ltr">
 		<meta name="author" content="asyer">
+<<<<<<< HEAD
 		<meta name="title" content="asyer's site">
 		<meta name="description" content="insyaallah">
 		<meta name="viewport" content="width=device-width initial-scale=1.0">
 		<title>asyer</title>
 		<link rel="shortcut icon" href="payload.png">
+=======
+		<meta name="title" content="asyer">
+		<meta name="description" content="asyer">
+		<meta name="viewport" content="width=device-width initial-scale=1.0">
+		<title>asyer</title>
+		<link rel="shortcut icon" href="favicon.png">
+>>>>>>> 0cc22706d307b4d83d925dc7eb4be8093726e490
 	</head>
 	<body>
+<<<<<<< HEAD
 		<div class="overlay">
 			<img src="icity2.jpg" alt="I think you need to reload the page :\">
 			<p style="font-size: 250%; color: white;margin-top: 0%;">asyer</p>
@@ -25,6 +34,11 @@
 			</p>
 		<p>Website fully written by me. Webpage icon vector art by me.</p>
 		</div>
+=======
+    <button type="button" onclick="fire();"><img src="favicon.png" alt="candy"></button>
+		<p id="fire" style="font-family: arial; font-size: xx-large; display:block;">asyer</p>
+    <div id="motd" style="font-family: arial; font-size: large; display: none;">This is a sample text</div>
+>>>>>>> 0cc22706d307b4d83d925dc7eb4be8093726e490
 		<style>
 			@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 			@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
@@ -46,12 +60,29 @@
 				justify-content: center;
 				text-align: center;
 				text-overflow: clip;
+<<<<<<< HEAD
 				font-family: "Balsamiq Sans";
+=======
+        transition-duration: 1s;
+			}
+			button{
+				background: none;
+				display: inline;
+				text-decoration: none;
+				border: none;
+>>>>>>> 0cc22706d307b4d83d925dc7eb4be8093726e490
 			}
 			img{
+<<<<<<< HEAD
 				margin: 5%;
 				width: 75%;
 				height: 75%;
+=======
+				width: 25%;
+				height: 25%;
+				border-radius: 50%;
+        border: 3px solid white;
+>>>>>>> 0cc22706d307b4d83d925dc7eb4be8093726e490
 			}
       div{
         text-align: left;
