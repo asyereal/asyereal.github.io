@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 0%;
+}
+
+body {
+  height: auto;
+  min-height: 100%;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  background-image: url('resources/icity1.jpg');
+  background-color: #333333;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  /*justify-content: center;*/
+  text-overflow: clip;
+  font-family: "Balsamiq Sans";
+}
+
+.button {
+  background: none;
+  display: inline;
+  text-decoration: none;
+  border: none;
+  color: black;
+  background-color: white;
+  padding: 1% 2%;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+div {
+  text-align: left;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  img {
+    width: 25%;
+    height: 25%;
+  }
+}
+
+img {
+  width: 30%;
+  height: 30%;
+}
+
+.introPara {
+  color: white;
+}
+
+.panel{
+  margin-left: 2%;
+}
+
+.secondPanel{
+  margin: 5%;
+}

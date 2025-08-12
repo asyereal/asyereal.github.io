@@ -1,99 +1,68 @@
 <!DOCTYPE HTML>
 <html>
+
 	<head>
 		<meta http-equiv="Content-Type" content="text/html charset=UTF-8" dir="ltr">
 		<meta name="author" content="asyer">
 		<meta name="title" content="asyer's site">
 		<meta name="description" content="insyaallah">
 		<meta name="viewport" content="width=device-width initial-scale=1.0">
+		<link rel="stylesheet" href="stylesheet.css">
+		<link rel="shortcut icon" href="resources/favicon.png">
 		<title>asyer</title>
-		<link rel="shortcut icon" href="favicon.png">
 	</head>
+
 	<body>
 		<div class="overlay">
-			<img src="icity2.jpg" style="margin: 5%;" alt="I think you need to reload the page :\">
-			<p style="font-size: 250%; color: white;margin: 0% 10% 5% 10%;">asyer</p>
-			<p class="introPara" style="font-size: 125%; margin: 0% 20% 0% 20%">
-				Asyraf, nicknamed Asyer (stylised in lowercase). A Malacca-born tech enthusiast that indulges in house music.
-				I am a firstborn son of three. This webdomain has been my blogging space since 2020. Take a look around.
-			</p>
-			<p style="font-size: 150%; text-align: center">
-				<a class="button" href="https://www.instagram.com/asyereal/">Instagram</a>
-				<a class="button" href="https://x.com/asyereal/">X</a>
-				<a class="button" href="https://github.com/asyereal/">GitHub</a>
-				<!--<a class="button" href="https://soundcloud.com/asyereal">Soundcloud</a>-->
-			</p>
-		<footer>Website fully written by me. Webpage icon vector art by me.</footer>
+			<div style="text-align: center;" class="introPanel">
+				<img src="resources/icity2.jpg" style="margin: 5%;" alt="I think you need to reload the page :\">
+				<p style="font-size: 250%; color: white;margin: 0% 10% 3% 10%;">asyer</p>
+				<p class="introPara" style="font-size: 125%; margin: 0% 20% 3% 20%">
+					Asyraf, nicknamed Asyer (stylised in lowercase). A Malacca-born tech enthusiast that indulges in house music.
+					I am a firstborn son of three. This webdomain has been my blogging space since 2020. Take a look around.
+				</p>
+			</div>
+			<div class="panel secondPanel">
+				<h2>In Pursuit of Identity</h2>
+				<p style=" text-align: left; display: inline-flex;"><br><br>
+					With the ever expanding trend of internet culture that shape the generation my age, the drive for
+					originality seems to fade from the minds of our people. As our youths seem to have an affinity to
+					copy what each other deem relevant to the current times, the rise of FOMO as a term had manifested
+					into a culture in itself. I personally am not a contrarian, but I do believe that people my age
+					should try to paint their canvas with their own design. I am not implying that it is wrong to try
+					to fit in with the society or follow trends, but the excessive need for commonality our youths seem
+					to possess started to negatively impact the way young people see themselves especially online. I am
+					preaching my fellow peers to be yourself, be original and as always, be happy with what you are.
+					<img src="resources/kurta.jpg" style="display: inline; width: 50%; margin-left: 2%;">
+				</p>
+				
+			</div>
+			<div class="panel lastPanel" style="text-align: center;">
+				<p style="font-size: 50%;">
+					<a class="button" href="https://www.instagram.com/asyereal/">Instagram</a>
+					<a class="button" href="https://x.com/asyereal/">X</a>
+					<a class="button" href="https://github.com/asyereal/">GitHub</a>
+					<!--<a class="button" href="https://soundcloud.com/asyereal">Soundcloud</a>-->
+				</p>
+			</div>
+			<footer>Website fully written by me. Webpage icon vector art by me.</footer>
 		</div>
-		<style>
-			@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-			@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
-			.overlay{
-				background-color: rgba(0, 0, 0, 0.65);
-				padding: 0%;
-				text-align: center;
-			}
-			body {
-				height: auto;
-				min-height: 100%;
-				overflow-x: hidden;
-				padding: 0;
-				margin: 0;
-				background-image: url('kurta.jpg');
-				background-color: #333333;
-				background-position: center;
-				background-repeat: no-repeat;
-				background-size: cover;
-				color: white;
-				justify-content: center;
-				text-align: center;
-				text-overflow: clip;
-				font-family: "Balsamiq Sans";
-			}
-			.button{
-				background: none;
-				display: inline;
-				text-decoration: none;
-				border: none;
-				color: black;
-				background-color: white;
-				padding: 1% 2%;
-				border: 2px solid black;
-				border-radius: 12px;
-			}
-
-      div{
-        text-align: left;
-      }
-			@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
-				img{
-					width: 25%;
-					height: 25%;
+		<script>
+			function fire() {
+				fetch('motd.txt').then(response => response.text()).then(data => {
+					document.getElementById('motd').innerHTML = data;
+				}).catch(error => {
+					document.getElementById('motd').innerHTML = "No new message";
+				})
+				if (document.getElementById("fire").style.display == "block") {
+					document.getElementById("fire").style.display = "none";
+					document.getElementById("motd").style.display = "block";
+				} else {
+					document.getElementById("fire").style.display = "block";
+					document.getElementById("motd").style.display = "none";
 				}
 			}
-			img{
-				width: 30%;
-				height: 30%;
-			}
-			.introPara{
-				color: white;
-			}
-		</style>
-    <script>
-      function fire(){
-        fetch('motd.txt').then(response => response.text()).then(data => {
-          document.getElementById('motd').innerHTML = data;
-        }).catch(error => {
-          document.getElementById('motd').innerHTML = "No new message";
-        })
-        if(document.getElementById("fire").style.display == "block"){
-          document.getElementById("fire").style.display = "none";
-          document.getElementById("motd").style.display = "block";
-        }else{
-          document.getElementById("fire").style.display = "block";
-          document.getElementById("motd").style.display = "none";
-        }
-      }
-    </script>
+		</script>
 	</body>
+
 </html>
