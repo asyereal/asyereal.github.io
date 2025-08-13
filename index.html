@@ -13,40 +13,49 @@
 	</head>
 
 	<body>
+		<header>
+			<div class="headcontain">
+				<h1 style="align-self: center;">asyer</h1>
+				<h1 class="boutme" onclick="alert('nak tau ape pasal koi senonye?')">about me</h1>
+			</div>
+		</header>
 		<div class="overlay">
 			<div style="text-align: center;" class="introPanel">
 				<img src="resources/icity2.jpg" style="margin: 5%;" alt="I think you need to reload the page :\">
-				<p style="font-size: 250%; color: white;margin: 0% 10% 3% 10%;">asyer</p>
 				<p class="introPara" style="font-size: 125%; margin: 0% 20% 3% 20%">
 					Asyraf, nicknamed Asyer (stylised in lowercase). A Malacca-born tech enthusiast that indulges in house music.
 					I am a firstborn son of three. This webdomain has been my blogging space since 2020. Take a look around.
 				</p>
 			</div>
-			<div class="panel secondPanel">
-				<h2>In Pursuit of Identity</h2>
-				<p style=" text-align: left; display: inline-flex;"><br><br>
-					With the ever expanding trend of internet culture that shape the generation my age, the drive for
-					originality seems to fade from the minds of our people. As our youths seem to have an affinity to
-					copy what each other deem relevant to the current times, the rise of FOMO as a term had manifested
-					into a culture in itself. I personally am not a contrarian, but I do believe that people my age
-					should try to paint their canvas with their own design. I am not implying that it is wrong to try
-					to fit in with the society or follow trends, but the excessive need for commonality our youths seem
-					to possess started to negatively impact the way young people see themselves especially online. I am
-					preaching my fellow peers to be yourself, be original and as always, be happy with what you are.
+				<h2 style="margin-left: 3%; margin-bottom: 0%;">In Pursuit of Identity</h2>
+			<div class="panel secondPanel" style="display: inline-flex;">
+				<p style=" text-align: left;"><br>
+					With the ever expanding trend of internet culture that
+					keeps reshaping the generation, the drive for originality
+					seems to fade from the minds of our people. Our youths
+					seem to have an affinity to copy what each other deem
+					relevant to the current times. I am not a contrarian,
+					but I do personally believe that people should try to
+					paint their own canvas. There is no wrong in trying to
+					fit in with the society or follow trends, but the
+					excessive need for commonality our youths seem to possess
+					starts to negatively impact the way young people see
+					themselves online. As this phenomenon continues, the
+					only outcome is a homogeneous society that can easily
+					be manipulated and controlled.
+				</p>
 					<img src="resources/kurta.jpg" style="display: inline; width: 50%; margin-left: 2%;">
-				</p>
-				
 			</div>
-			<div class="panel lastPanel" style="text-align: center;">
-				<p style="font-size: 50%;">
-					<a class="button" href="https://www.instagram.com/asyereal/">Instagram</a>
-					<a class="button" href="https://x.com/asyereal/">X</a>
-					<a class="button" href="https://github.com/asyereal/">GitHub</a>
-					<!--<a class="button" href="https://soundcloud.com/asyereal">Soundcloud</a>-->
-				</p>
-			</div>
-			<footer>Website fully written by me. Webpage icon vector art by me.</footer>
 		</div>
+		<div class="kaki">
+				<div class="panel lastPanel" style="text-align: center;">
+					<a class="button" href="https://www.instagram.com/asyereal/"><img style="width: 25px; height: auto;" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg"></a>
+					<a class="button" href="https://x.com/asyereal/"><img style="width: 25px; height: auto;" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg"></a>
+					<a class="button" href="https://github.com/asyereal/"><img style="width: 25px; height: auto;" src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg"></a>
+					<!--<a class="button" href="https://soundcloud.com/asyereal">Soundcloud</a>-->
+			</div>
+			Website fully written by me. Webpage icon vector art by me.
+			</div>
 		<script>
 			function fire() {
 				fetch('motd.txt').then(response => response.text()).then(data => {
