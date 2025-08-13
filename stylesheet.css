@@ -94,9 +94,19 @@ h1{
   color: black
 }
 
+.articlepic{
+display: inline;
+width: 50%;
+margin-left: 2%;
+align-self: center;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
   img {
     width: 25%;
     height: 25%;
+  }
+  .articlepic{
+    display: block;
   }
 }
