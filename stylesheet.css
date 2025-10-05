@@ -53,7 +53,7 @@ h1{
   align-self: center;
   cursor: pointer;
   border: 2px solid white;
-  font-size: 100%;
+  font-size: 60%;
   padding: 1%;
   border-radius: 10px;
 }
@@ -109,4 +109,9 @@ align-self: center;
   .articlepic{
     display: block;
   }
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }

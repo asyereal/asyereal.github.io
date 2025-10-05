@@ -4,32 +4,33 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html charset=UTF-8" dir="ltr">
 		<meta name="author" content="asyer">
-		<meta name="title" content="asyer's site">
-		<meta name="description" content="insyaallah">
+		<meta name="title" content="Asyer's Personal Blog">
+		<meta name="description" content="My name is Asyraf and I am an International Baccalaureate student at Kolej MARA Banting.">
 		<meta name="viewport" content="width=device-width initial-scale=1.0">
 		<link rel="stylesheet" href="stylesheet.css">
 		<link rel="shortcut icon" href="resources/favicon.png">
+		<script src="index.js"></script>
 		<title>asyer</title>
 	</head>
 
 	<body>
 		<header>
 			<div class="headcontain">
-				<h1 style="align-self: center;">asyer</h1>
-				<h1 class="boutme" onclick="alert('I don\'t even know about myself')">about me</h1>
+				<h1 style="align-self: center;"><a href="index.html">asyer</a></h1>
+				<a class="boutme" href="about.html"><h1>About Me</h1></a>
 			</div>
 		</header>
 		<div class="overlay">
 			<div style="text-align: center;" class="introPanel">
-				<img title="i-City Shah Alam" src="resources/icity2.jpg" style="margin: 3%;" alt="I think you need to reload the page :\">
+				<img title="i-City Shah Alam" src="resources/icity2.jpg" style="margin: 3%; border-radius: 5%;" alt="I think you need to reload the page :\">
 				<p class="introPara" style="font-size: 125%; margin: 0% 20% 3% 20%">
 					Asyraf, nicknamed Asyer (stylised in lowercase). A Malacca-born tech enthusiast that indulges in house music.
-					I am a firstborn son of three. This webdomain has been my blogging space since 2020. Take a look around.
+					I am a firstborn son of three. This web domain has been my blogging space since 2020. Take a look around.
 				</p>
 			</div>
 			<h2 style="margin-left: 3%; margin-bottom: 0%;">In Pursuit of Identity</h2>
 			<div class="panel secondPanel" style="display: inline-flex;">
-				<p style=" text-align: left; align-self: center;"><br>
+				<p align="justify" style=" text-align: left; align-self: center;"><br>
 					With the ever expanding trend of internet culture that
 					keeps reshaping the generation, the drive for originality
 					seems to fade from the minds of our people. Our youths
@@ -44,10 +45,10 @@
 					only outcome is a homogeneous society that can easily
 					be manipulated and controlled.
 				</p>
-					<img class="articlepic" title="Maahad Tahfiz Negeri Pahang" src="resources/kurta.jpg">
+					<img class="articlepic" title="Maahad Tahfiz Negeri Pahang" src="resources/kurta.jpg" style="border-radius: 5%;">
 			</div>
 		</div>
-		<div class="kaki">
+		<footer class="kaki">
 				<div class="panel lastPanel" style="text-align: center;">
 					<a class="button" href="https://www.instagram.com/asyereal/"><img style="width: 25px; height: auto;" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg"></a>
 					<a class="button" href="https://x.com/asyereal/"><img style="width: 25px; height: auto;" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg"></a>
@@ -55,7 +56,7 @@
 					<!--<a class="button" href="https://soundcloud.com/asyereal">Soundcloud</a>-->
 			</div>
 			Website fully written by me. Webpage icon vector art by me.
-			</div>
+		</footer>
 		<script>
 			function fire() {
 				fetch('motd.txt').then(response => response.text()).then(data => {
