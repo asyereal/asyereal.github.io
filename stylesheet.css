@@ -46,22 +46,23 @@ h1{
 }
 
 .boutmebox{
-	align-items: center;
+	display: flex;
 	align-self: center;
 	width: 20%;
 	text-align: center;
 }
 
 .boutme{
+	width: 300px;
 	cursor: pointer;
 	border: 2px solid white;
 	font-size: 120%;
 	border-radius: 10px;
 	text-align: center;
 	display: inline;
-	width: 60%;
 	padding: 5% 2% 5% 2%;
 	margin: 0% 2%;
+	align-content: center;
 }
 
 .boutme:hover{
@@ -123,6 +124,14 @@ align-self: center;
 	}
 	.articlepic{
 		display: block;
+	}
+}
+@media only screen and (max-width: 1075px){
+	.boutme{
+		font-size: 100%;
+	}
+	.boutmebox{
+		width: 40%;
 	}
 }
 
